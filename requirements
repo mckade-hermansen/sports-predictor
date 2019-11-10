@@ -1,0 +1,16 @@
+Sports predictor - NFL -
+  - DVOA - 0% is average - percent over or under average
+    - weights will be first row of csv WEIGHT
+    - weighted - 1.5
+    - offensive - 1
+    - defensive - 1
+    - special teams - 0.5
+    - steps to find % chance of winning based of DVOA
+      - using the weights add up total DVOA for the team
+      - sum total weights
+      - find percentage to sum
+    - home team advantage is 2.5% bump
+    - input
+      - csv of overall DVOAs 
+      - two teams
+      - which one is at home
