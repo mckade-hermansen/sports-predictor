@@ -18,7 +18,6 @@ def parse_dvoa(dvoa_file):
       if row[1] != 'TEAM':
         dvoa_data[row[1]] = parse_dvoa_row(row)
 
-  print_csv_data(dvoa_data)
   return dvoa_data
 
 def parse_dvoa_row(row):
